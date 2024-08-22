@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DumDums</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to DumDums</h1>
+        <p>Your go-to blog for English learning resources</p>
+    </header>
+
+    <section id="schedule">
+        <h2>Book a Lesson</h2>
+        <iframe src="YOUR_GOOGLE_CALENDAR_EMBED_LINK" style="border: 0" width="800" height="600" frameborder="0"
+            scrolling="no"></iframe>
+        <form id="booking-form">
+            <label for="date">Choose a date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Choose a time:</label>
+            <input type="time" id="time" name="time" required>
+            <button type="submit">Request Schedule</button>
+        </form>
+    </section>
+
+    <section id="resources">
+        <h2>Learning Resources</h2>
+        <div id="videos">
+            <h3>Videos</h3>
+            <!-- Embed or link your videos here -->
+        </div>
+        <div id="texts">
+            <h3>Texts</h3>
+            <!-- Add your text content here -->
+        </div>
+        <div id="pdfs">
+            <h3>PDFs</h3>
+            <!-- Add links to your PDFs here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DumDums. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
